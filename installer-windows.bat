@@ -1,0 +1,26 @@
+@echo off
+
+cd /D "%~dp0"
+
+set modfolder="%USERPROFILE%\AppData\Local\.minecraft\mods"
+
+echo "################"
+echo SCRIPT STARTING
+echo "################"
+echo.
+    @timeout /t 1 >nul 2>&1
+
+echo Updating Mods...
+    cd /d %modfolder%
+
+    curl "https://git.adolin.xyz/saru/lobotomy-mod-pack/raw/branch/main/mods.tar.gz" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8" -H "Accept-Language: en-US,en;q=0.5" -H "Accept-Encoding: gzip, deflate, br, zstd" -H "Prefer: safe" -H "Alt-Used: git.adolin.xyz" -H "Connection: keep-alive" -H "Cookie: i_like_gitea=dc903e38b2389103; gitea_incredible=kkE9G8qj00^%^3A1d45072f9b1b6206d863d5d7d92d0bcc35eddc70b8b6a7e65bf1a3ab47d50bcb; lang=en-US; _csrf=wYNHHVVAzY0SiFtV8czykrO40fk6MTcyOTM5OTc3MzQ1Nzk5MjA0MA" -H "Upgrade-Insecure-Requests: 1" -H "Sec-Fetch-Dest: document" -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Site: same-origin" -H "Sec-Fetch-User: ?1" -H "Priority: u=0, i" -H "TE: trailers" -OJL
+
+    @timeout /t 2 >nul 2>&1
+    del *.jars
+    @timeout /t 2 >nul 2>&1
+    
+    tar -xvzf mods.tar.gz -C %modfolder%
+
+echo Sigma!
+echo All done.
+exit
