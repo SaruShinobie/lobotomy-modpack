@@ -1,5 +1,5 @@
 # lobotomy-mod-pack
-# All the mods running on the lobotomy land server, their associated links, and their descriptions.
+### All the mods running on the lobotomy land server, their associated links, and their descriptions.
 
 ## [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 
