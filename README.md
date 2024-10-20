@@ -69,9 +69,6 @@
 ### [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
 
 
-### [Create Steam & Rails](https://modrinth.com/mod/create-steam-n-rails)
-
-
 ### [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)
 
 
