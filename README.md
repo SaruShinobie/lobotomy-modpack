@@ -1,6 +1,6 @@
 # lobotomy-mod-pack
 ### All the mods running on the lobotomy land server, their associated links, and their descriptions.
-
+![alt text](https://git.adolin.xyz/saru/lobotomy-mod-pack/blob/main/logo.png?raw=true)
 # Libraries and API's
 
 ### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
