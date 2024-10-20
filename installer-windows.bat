@@ -2,7 +2,7 @@
 
 cd /D "%~dp0"
 
-set modfolder="%USERPROFILE%\AppData\Roaming\.minecraft\mods"
+set modfolder="%USERPROFILE%\AppData\Local\.minecraft\mods"
 
 echo "################"
 echo SCRIPT STARTING
