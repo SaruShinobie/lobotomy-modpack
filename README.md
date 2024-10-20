@@ -21,7 +21,7 @@
 ### [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api)
 
 
-### [Botarium (Liquid and Energy Transfer API](https://modrinth.com/mod/botarium)
+### [Botarium (Liquid and Energy Transfer API)](https://modrinth.com/mod/botarium)
 
 
 ### [Balm API](https://modrinth.com/mod/balm)
@@ -240,19 +240,19 @@
 ### [Mobtimizations](https://modrinth.com/mod/mobtimizations)
 
 
-### [Minimotd](https://modrinth.com/plugin/minimotd)
+### [MiniMOTD](https://modrinth.com/plugin/minimotd)
 
 
 ### [Lazy DFU](https://modrinth.com/mod/lazydfu)
 
 
-### [Lamb dynamic lights](https://modrinth.com/mod/lambdynamiclights)
+### [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights)
 
 
 ### [Item Model Gap Fix](https://modrinth.com/mod/item-model-fix)
 
 
-### [3d Skin Layers](https://modrinth.com/mod/3dskinlayers)
+### [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 
 
 ### [Sodium](https://modrinth.com/mod/sodium/versions?g=1.20.1&l=fabric)
