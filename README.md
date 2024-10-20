@@ -1,7 +1,10 @@
-# lobotomy-mod-pack
-### All the mods running on the lobotomy land server, their associated links, and their descriptions.
+# `lobotomy-mod-pack`
 ![logo](logo-small.png)
-# Libraries and API's
+
+# Description
+This repository contains all the mods running on the lobotomy land server, their associated links, and their descriptions. This list should be updated fairly often. 
+
+## Libraries and API's
 
 ### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 
@@ -55,7 +58,7 @@
 
 
 
-# Major Content 
+## Major Content 
 
 ### [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
 
@@ -112,7 +115,7 @@
 
 
 
-# Minor Content/QOL (Quality of Life)
+## Minor Content/QOL (Quality of Life)
 
 ### [Crops Love Rain](https://modrinth.com/mod/crops-love-rain)
 
@@ -202,7 +205,7 @@
 
 
 
-# Performance/Functionality
+## Performance/Functionality
 
 ### [Entity Culling](https://modrinth.com/mod/entityculling)
 
