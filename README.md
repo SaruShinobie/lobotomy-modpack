@@ -1,272 +1,292 @@
 # lobotomy-mod-pack
 ### All the mods running on the lobotomy land server, their associated links, and their descriptions.
 
-## [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+# Libraries and API's
 
+### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 
-## [Fabric API](ttps://modrinth.com/mod/fabric-api)
 
+### [Fabric API](ttps://modrinth.com/mod/fabric-api)
 
-## [Entity Culling](https://modrinth.com/mod/entityculling)
 
+### [unilib](https://modrinth.com/mod/unilib)
 
-## [Dynmap](https://modrinth.com/plugin/dynmap)
 
+### [CoroUtil](https://modrinth.com/mod/coroutil)
 
-## [Crops Love Rain](https://modrinth.com/mod/crops-love-rain)
 
 
-## [Create Mob Eggs](https://modrinth.com/mod/create-mob-eggs)
+# Major Content 
 
+### [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
 
-## [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
 
+### [Create Deco Additions???](https://modrinth.com/datapack/create-deco-additions)
 
-## [Create Deco Additions???](https://modrinth.com/datapack/create-deco-additions)
 
+### [Create Deco](https://modrinth.com/mod/create-deco)
 
-## [Create Deco](https://modrinth.com/mod/create-deco)
 
+### [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
 
-## [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
 
+### [Create Steam n Rails](https://modrinth.com/mod/create-steam-n-rails)
 
-## [Create Steam n Rails](https://modrinth.com/mod/create-steam-n-rails)
 
+### [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)
 
-## [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)
 
+### [Create High Pressure](https://modrinth.com/mod/create-high-pressure)
 
-## [Create High Pressure](https://modrinth.com/mod/create-high-pressure)
 
+### [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric)
 
-## [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric)
 
+### [Create](https://modrinth.com/mod/create-fabric)
 
-## [Create](https://modrinth.com/mod/create-fabric)
 
+### [Create Copycats+](https://modrinth.com/mod/copycats)
 
-## [CraftPresence (discord RP)](https://modrinth.com/mod/craftpresence)
 
 
-## [CoroUtil](https://modrinth.com/mod/coroutil)
 
+# Minor Content/QOL (Quality of Life)
 
-## [Create Copycats+](https://modrinth.com/mod/copycats)
+### [Crops Love Rain](https://modrinth.com/mod/crops-love-rain)
 
 
-## [CList (coordinate list)](https://modrinth.com/mod/clist)
+### [CraftPresence (discord RP)](https://modrinth.com/mod/craftpresence)
 
 
-## [companion](https://modrinth.com/mod/companion)
+### [CList (coordinate list)](https://modrinth.com/mod/clist)
 
 
-## [Collective](https://modrinth.com/mod/collective)
+### [companion](https://modrinth.com/mod/companion)
 
 
-## [clickthrough](https://modrinth.com/mod/clickthrough)
 
+# Performance/Functionality
 
-## [chunky extension](https://modrinth.com/mod/chunky-extension)
+### [Entity Culling](https://modrinth.com/mod/entityculling)
 
 
-## [chunky](https://modrinth.com/plugin/chunky)
+### [chunky extension](https://modrinth.com/mod/chunky-extension)
 
 
-## [chefs delight (add villager)](https://modrinth.com/mod/chefs-delight)
+### [chunky](https://modrinth.com/plugin/chunky)
 
 
-## [cardinal comps api](https://modrinth.com/mod/cardinal-components-api)
+### [Dynmap](https://modrinth.com/plugin/dynmap)
 
 
-## [campfires cook mobs](https://modrinth.com/mod/camp-fires-cook-mobs)
 
+# Unorganized
 
-## [c2me (concurrent chunk management engine)](https://modrinth.com/mod/c2me-fabric)
 
 
-## [botarium (liquid energy api)](https://modrinth.com/mod/botarium)
 
 
-## [better than mending](https://modrinth.com/mod/better-than-mending)
 
 
-## [create bells and whistles](https://modrinth.com/mod/bellsandwhistles)
+### [Collective](https://modrinth.com/mod/collective)
 
 
-## [balm api](https://modrinth.com/mod/balm)
+### [clickthrough](https://modrinth.com/mod/clickthrough)
 
 
-## [architectury api](https://modrinth.com/mod/architectury-api)
 
+### [chefs delight (add villager)](https://modrinth.com/mod/chefs-delight)
 
-## [appleskin](https://modrinth.com/mod/appleskin)
 
+### [cardinal comps api](https://modrinth.com/mod/cardinal-components-api)
 
-## [anti xray](https://modrinth.com/mod/anti-xray)
 
+### [campfires cook mobs](https://modrinth.com/mod/camp-fires-cook-mobs)
 
-## [another furniture](https://modrinth.com/mod/another-furniture)
 
+### [c2me (concurrent chunk management engine)](https://modrinth.com/mod/c2me-fabric)
 
-## [packet fixer](https://modrinth.com/mod/packet-fixer)
 
+### [botarium (liquid energy api)](https://modrinth.com/mod/botarium)
 
-## [puzzles lib](https://modrinth.com/mod/puzzles-lib)
 
+### [better than mending](https://modrinth.com/mod/better-than-mending)
 
-## [presence footsteps sound mod](https://modrinth.com/mod/presence-footsteps)
 
+### [create bells and whistles](https://modrinth.com/mod/bellsandwhistles)
 
-## [plasmo voice](https://modrinth.com/plugin/plasmo-voice)
 
+### [balm api](https://modrinth.com/mod/balm)
 
-## [pigs have litters](https://modrinth.com/mod/pigs-have-litters)
 
+### [architectury api](https://modrinth.com/mod/architectury-api)
 
-## [pettable (pet friendly mobs)](https://modrinth.com/mod/pettable)
 
+### [appleskin](https://modrinth.com/mod/appleskin)
 
-## [naturalist](https://modrinth.com/mod/naturalist)
 
+### [anti xray](https://modrinth.com/mod/anti-xray)
 
-## [mod loading screen](https://modrinth.com/mod/mod-loading-screen)
 
+### [another furniture](https://modrinth.com/mod/another-furniture)
 
-## [mod menu](https://modrinth.com/mod/modmenu)
 
+### [packet fixer](https://modrinth.com/mod/packet-fixer)
 
-## [mobtimizations](https://modrinth.com/mod/mobtimizations)
 
+### [puzzles lib](https://modrinth.com/mod/puzzles-lib)
 
-## [minimotd](https://modrinth.com/plugin/minimotd)
 
+### [presence footsteps sound mod](https://modrinth.com/mod/presence-footsteps)
 
-## [midnight lib](https://modrinth.com/mod/midnightlib)
 
+### [plasmo voice](https://modrinth.com/plugin/plasmo-voice)
 
-## [logical zoom](https://modrinth.com/mod/logical-zoom)
 
+### [pigs have litters](https://modrinth.com/mod/pigs-have-litters)
 
-## [leaves be gone](https://modrinth.com/mod/leaves-be-gone)
 
+### [pettable (pet friendly mobs)](https://modrinth.com/mod/pettable)
 
-## [lazy DFU](https://modrinth.com/mod/lazydfu)
 
+### [naturalist](https://modrinth.com/mod/naturalist)
 
-## [lamb dynamic lights](https://modrinth.com/mod/lambdynamiclights)
 
+### [mod loading screen](https://modrinth.com/mod/mod-loading-screen)
 
-## [JEED](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)
 
+### [mod menu](https://modrinth.com/mod/modmenu)
 
-## [JEP](https://modrinth.com/mod/just-enough-professions-jep)
 
+### [mobtimizations](https://modrinth.com/mod/mobtimizations)
 
-## [JEB](https://modrinth.com/mod/justenoughbreeding)
 
+### [minimotd](https://modrinth.com/plugin/minimotd)
 
-## [JER](https://modrinth.com/mod/just-enough-resources-jer)
 
+### [midnight lib](https://modrinth.com/mod/midnightlib)
 
-## [JEI](https://modrinth.com/mod/jei)
 
+### [logical zoom](https://modrinth.com/mod/logical-zoom)
 
-## [item model gap fix](https://modrinth.com/mod/item-model-fix)
 
+### [leaves be gone](https://modrinth.com/mod/leaves-be-gone)
 
-## [new item highlighter](https://modrinth.com/mod/item-highlighter)
 
+### [lazy DFU](https://modrinth.com/mod/lazydfu)
 
-## [iris/oculus and gecklib compatibility animation fixer](https://modrinth.com/mod/geckoanimfix)
 
+### [lamb dynamic lights](https://modrinth.com/mod/lambdynamiclights)
 
-## [iris shaders](https://modrinth.com/mod/iris)
 
+### [JEED](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)
 
-## [inventory sorting](https://modrinth.com/mod/inventory-sorting)
 
+### [JEP](https://modrinth.com/mod/just-enough-professions-jep)
 
-## [create interiors](https://modrinth.com/mod/interiors)
 
+### [JEB](https://modrinth.com/mod/justenoughbreeding)
 
-## [indium](https://modrinth.com/mod/indium)
 
+### [JER](https://modrinth.com/mod/just-enough-resources-jer)
 
-## [immersive paintings](https://modrinth.com/mod/immersive-paintings)
 
+### [JEI](https://modrinth.com/mod/jei)
 
-## [immediately fast](https://modrinth.com/mod/immediatelyfast)
 
+### [item model gap fix](https://modrinth.com/mod/item-model-fix)
 
-## [no hostiles around campfire](https://modrinth.com/mod/no-hostiles-around-campfire)
 
+### [new item highlighter](https://modrinth.com/mod/item-highlighter)
 
-## [hostile mobs improve over time](https://modrinth.com/datapack/hostile-mobs-improve-over-time)
 
+### [iris/oculus and gecklib compatibility animation fixer](https://modrinth.com/mod/geckoanimfix)
 
-## [healing campfire](https://modrinth.com/mod/healing-campfire)
 
+### [iris shaders](https://modrinth.com/mod/iris)
 
-## [gecko lib](https://modrinth.com/mod/geckolib)
 
+### [inventory sorting](https://modrinth.com/mod/inventory-sorting)
 
-## [friends and foes](https://modrinth.com/mod/friends-and-foes)
 
+### [create interiors](https://modrinth.com/mod/interiors)
 
-## [f&f addon - flowery mooshrooms](https://modrinth.com/mod/friends-and-foes-flowery-mooblooms-fabric)
 
+### [indium](https://modrinth.com/mod/indium)
 
-## [reeses sodium options](https://modrinth.com/mod/reeses-sodium-options)
 
+### [immersive paintings](https://modrinth.com/mod/immersive-paintings)
 
-## [replanting crops](https://modrinth.com/mod/replanting-crops)
 
+### [immediately fast](https://modrinth.com/mod/immediatelyfast)
 
-## [show me what you got](https://modrinth.com/mod/show-me-what-you-got)
 
+### [no hostiles around campfire](https://modrinth.com/mod/no-hostiles-around-campfire)
 
-## [shulker box tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 
+### [hostile mobs improve over time](https://modrinth.com/datapack/hostile-mobs-improve-over-time)
 
-## [silk kotlin api](https://modrinth.com/mod/silk)
 
+### [healing campfire](https://modrinth.com/mod/healing-campfire)
 
-## [3d skin layers](https://modrinth.com/mod/3dskinlayers)
 
+### [gecko lib](https://modrinth.com/mod/geckolib)
 
-## [snowballs freeze mobs](https://modrinth.com/mod/snowballs-freeze-mobs)
 
+### [friends and foes](https://modrinth.com/mod/friends-and-foes)
 
-## [sodium extras](https://modrinth.com/mod/sodium-extra)
 
+### [f&f addon - flowery mooshrooms](https://modrinth.com/mod/friends-and-foes-flowery-mooblooms-fabric)
 
-## [spark performance profiler](https://modrinth.com/mod/spark)
 
+### [reeses sodium options](https://modrinth.com/mod/reeses-sodium-options)
 
-## [trinkets](https://modrinth.com/mod/trinkets)
 
+### [replanting crops](https://modrinth.com/mod/replanting-crops)
 
-## [vein mining ENCHANTMENT ](https://modrinth.com/mod/vein-mining)
 
+### [show me what you got](https://modrinth.com/mod/show-me-what-you-got)
 
-## [villager names](https://modrinth.com/mod/villager-names-serilum)
 
+### [shulker box tooltip](https://modrinth.com/mod/shulkerboxtooltip)
 
-## [wandering collector](https://modrinth.com/mod/wandering-collector)
 
+### [silk kotlin api](https://modrinth.com/mod/silk)
 
-## [where is it](https://modrinth.com/mod/where-is-it)
 
+### [3d skin layers](https://modrinth.com/mod/3dskinlayers)
 
-## [yet another config library](https://modrinth.com/mod/yacl)
 
+### [snowballs freeze mobs](https://modrinth.com/mod/snowballs-freeze-mobs)
 
-## [Iceberg library api](https://modrinth.com/mod/iceberg)
 
+### [sodium extras](https://modrinth.com/mod/sodium-extra)
 
-## [sodium](https://modrinth.com/mod/sodium/versions?g=1.20.1&l=fabric)
 
+### [spark performance profiler](https://modrinth.com/mod/spark)
 
-## [unilib](https://modrinth.com/mod/unilib)
+
+### [trinkets](https://modrinth.com/mod/trinkets)
+
+
+### [vein mining ENCHANTMENT ](https://modrinth.com/mod/vein-mining)
+
+
+### [villager names](https://modrinth.com/mod/villager-names-serilum)
+
+
+### [wandering collector](https://modrinth.com/mod/wandering-collector)
+
+
+### [where is it](https://modrinth.com/mod/where-is-it)
+
+
+### [yet another config library](https://modrinth.com/mod/yacl)
+
+
+### [Iceberg library api](https://modrinth.com/mod/iceberg)
+
+
+### [sodium](https://modrinth.com/mod/sodium/versions?g=1.20.1&l=fabric)
+
 
