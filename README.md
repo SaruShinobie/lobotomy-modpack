@@ -2,60 +2,7 @@
 ![logo](logo-small.png)
 
 # Description
-This repository contains all the mods running on the lobotomy land server, their associated links, and their descriptions. This list should be updated fairly often. 
-
-## Libraries and API's
-
-### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-
-
-### [Fabric API](ttps://modrinth.com/mod/fabric-api)
-
-
-### [Unilib](https://modrinth.com/mod/unilib)
-
-
-### [CoroUtil](https://modrinth.com/mod/coroutil)
-
-
-### [Collective](https://modrinth.com/mod/collective)
-
-
-### [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api)
-
-
-### [Botarium (Liquid and Energy Transfer API)](https://modrinth.com/mod/botarium)
-
-
-### [Balm API](https://modrinth.com/mod/balm)
-
-
-### [Architectury API](https://modrinth.com/mod/architectury-api)
-
-
-### [Puzzles lib](https://modrinth.com/mod/puzzles-lib)
-
-
-### [Midnight lib](https://modrinth.com/mod/midnightlib)
-
-
-### [Iris and Geckolib Animation Compatibility](https://modrinth.com/mod/geckoanimfix)
-
-
-### [Silk Kotlin Language API](https://modrinth.com/mod/silk)
-
-
-### [Gecko lib](https://modrinth.com/mod/geckolib)
-
-
-### [Yet Another Config Library](https://modrinth.com/mod/yacl)
-
-
-### [Iceberg Library](https://modrinth.com/mod/iceberg)
-
-
-### [Trinkets](https://modrinth.com/mod/trinkets)
-
+This repository contains all the mods running on lobotomy land, their associated links, and their descriptions - it shouldn't update often.
 
 
 ## Major Content 
@@ -63,20 +10,19 @@ This repository contains all the mods running on the lobotomy land server, their
 ### [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
 Adds diesel generators, fuel, oil drilling and refining, distillation, etc.
 
-### [Create Deco Additions](https://modrinth.com/datapack/create-deco-additions)
-Minor compatiblity fix for Create Deco involving item tags.
-
 ### [Create Deco](https://modrinth.com/mod/create-deco)
 Adds a massive amount of decorative blocks to Create mod, including bricks, decals, shipping containers, and a huge assortment of railing, scaffolding, ladders, windows, and etc. using Create mod materials.
 
 ### [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
-Create mod plugin that adds electricity related items; motors, generators, batteries, collectors, wires, all driven by normal rotatio force from create mod contraptions.
+Create mod plugin that adds electricity related items; motors, generators, batteries, collectors, wires, all driven by normal rotation force from create mod contraptions.
+
 Electricity is generally very difficult to generate, as alternators (electricity generators) have a high torque requirement and electric motors require a LOT of electricity.
 
-Also adds chocolate cake. c:
+Also adds chocolate cake. :)
 
 ### [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)
 Adds chunk loaders that keeps chunks on the server loaded and contraptions in the radius running, even when away.
+
 Major Features:
  - 2 tiers of chunk loaders:
      - Brass chunk loader: configurable loading range (1x1 to 5x5)
@@ -90,6 +36,7 @@ Major Features:
 
 ### [Create High Pressure](https://modrinth.com/mod/create-high-pressure)
 Create mod plugin that adds the ability to automate diamond production from coal or charcoal.
+
 "Create High Pressure aims to give you a seamless and bloatless way of producing diamonds reliably, with no mining needed. It is quite costly though!"
 **"It is meant to be survival friendly and not overpowered in any way."**
 
@@ -99,18 +46,21 @@ Also adds the ability to manufacture netherrack by mixing it with gravel and lav
 ### [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric)
 Create mod plugin that focuses on partially automating XP farming and enchantment/disenchantment. Below are some major features:
 
- - Liquid Experience: High-density experience that is easy to store and transport.
- - Disenchanter: Disenchant items and collect experience as liquid.
- - Blaze Enchanter: Automated enchanting.
- - Printer: Enables copying your written books, enchanted books, name tags and train schedules.
- - Deployer & Crushing Wheel Tweak: Mobs killed by the Deployer & Crushing Wheel drop experience nuggets.
- - Hyper-enchant mechanism allows you to get enchantment whose level is higher than level cap.
- - Mending on belt: Items enchanted with Mending can be repaired using Spout and Liquid Experience.
- - Deployer with Sweeping Edge: Deployer now benefits from sword with Sweeping Edge Enchantment.
+ - *Liquid Experience: High-density experience that is easy to store and transport.*
+ - *Disenchanter: Disenchant items and collect experience as liquid.*
+ - *Blaze Enchanter: Automated enchanting.*
+ - *Printer: Enables copying your written books, enchanted books, name tags and train schedules.*
+ - *Deployer & Crushing Wheel Tweak: Mobs killed by the Deployer & Crushing Wheel drop experience nuggets.*
+ - *Hyper-enchant mechanism allows you to get enchantment whose level is higher than level cap.*
+ - *Mending on belt: Items enchanted with Mending can be repaired using Spout and Liquid Experience.*
+ - *Deployer with Sweeping Edge: Deployer now benefits from sword with Sweeping Edge Enchantment.*
 
 ### [Create](https://modrinth.com/mod/create-fabric)
-Create mod base. Adds far too many features to cover here. Mostly based in the automation of different things, but includes so many machines for automating and new materials that it's essentially an expansion pack for minecraft as a whole. Create mod has it's own in-game documentation - "Ponder." 
-Create mod and Just Enough Items (the item list menu thing to the right of your inventory) go hand in hand.
+Create mod base. Adds far too many features to cover here.
+
+Mostly based in the automation of different things, but includes so many machines for automating and new materials that it's essentially an expansion pack for minecraft as a whole. Create mod has it's own in-game documentation - "Ponder." 
+
+Create mod and **Just Enough Items** (the item list menu thing to the right of your inventory) go hand in hand.
 
 ### [Create Copycats+](https://modrinth.com/mod/copycats)
 Create plugin that adds more copycat blocks that can be textured with any block when right clicked. Includes vertical slabs (sin)
@@ -129,7 +79,7 @@ Adds a moderately sized collection of new animals, mostly peaceful. Giraffes, De
 
 ### [Friends and Foes](https://modrinth.com/mod/friends-and-foes)
 Adds previously outvoted mobs from past mob votes held by Mojang.
-There are more than a few unique features added by this one, so I recommend just [checking the wiki.](https://github.com/Faboslav/friends-and-foes/wiki)
+There are more than a few unique features added by this one, so I recommend just **[checking the wiki.](https://github.com/Faboslav/friends-and-foes/wiki)**
 
 ### [Friends and Foes Addon - Flowery Mooshrooms](https://modrinth.com/mod/friends-and-foes-flowery-mooblooms-fabric)
 Addon to Friends and Foes that adds "Mooblooms" that wander flower covered plains.
@@ -281,6 +231,9 @@ Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once
 ### [Item Model Gap Fix](https://modrinth.com/mod/item-model-fix)
 
 
+### [Create Deco Additions](https://modrinth.com/datapack/create-deco-additions)
+Minor compatiblity fix for *[Create Deco](#create-deco)* involving item tags.
+
 ### [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 
 
@@ -303,3 +256,57 @@ Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once
 
 
 ### [Immediately fast](https://modrinth.com/mod/immediatelyfast)
+
+## Libraries and API's
+
+### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+
+
+### [Fabric API](ttps://modrinth.com/mod/fabric-api)
+
+
+### [Unilib](https://modrinth.com/mod/unilib)
+
+
+### [CoroUtil](https://modrinth.com/mod/coroutil)
+
+
+### [Collective](https://modrinth.com/mod/collective)
+
+
+### [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api)
+
+
+### [Botarium (Liquid and Energy Transfer API)](https://modrinth.com/mod/botarium)
+
+
+### [Balm API](https://modrinth.com/mod/balm)
+
+
+### [Architectury API](https://modrinth.com/mod/architectury-api)
+
+
+### [Puzzles lib](https://modrinth.com/mod/puzzles-lib)
+
+
+### [Midnight lib](https://modrinth.com/mod/midnightlib)
+
+
+### [Iris and Geckolib Animation Compatibility](https://modrinth.com/mod/geckoanimfix)
+
+
+### [Silk Kotlin Language API](https://modrinth.com/mod/silk)
+
+
+### [Gecko lib](https://modrinth.com/mod/geckolib)
+
+
+### [Yet Another Config Library](https://modrinth.com/mod/yacl)
+
+
+### [Iceberg Library](https://modrinth.com/mod/iceberg)
+
+
+### [Trinkets](https://modrinth.com/mod/trinkets)
+
+
