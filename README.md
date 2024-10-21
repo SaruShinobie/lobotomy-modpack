@@ -1,4 +1,4 @@
-# Lobotomy Land Modpack and Documentation
+# Lobotomy Land Mods, Installer, and Documentation
 ![logo](logo-small.png)
 
 # Description
