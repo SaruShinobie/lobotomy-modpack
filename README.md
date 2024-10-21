@@ -7,6 +7,13 @@ This repository contains all the mods running on lobotomy land, their associated
 
 ## Major Content 
 
+### [Create](https://modrinth.com/mod/create-fabric)
+Create mod base. Adds far too many features to cover here.
+
+Mostly based in the automation of different things, but includes so many machines for automating and new materials that it's essentially an expansion pack for minecraft as a whole. Create mod has it's own in-game documentation - "Ponder." 
+
+Create mod and **[Just Enough Items](#jei)** go hand in hand. Seriously, JEI will save your life.
+
 ### [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
 Adds diesel generators, fuel, oil drilling and refining, distillation, etc.
 
@@ -54,13 +61,6 @@ Create mod plugin that focuses on partially automating XP farming and enchantmen
  - *Hyper-enchant mechanism allows you to get enchantment whose level is higher than level cap.*
  - *Mending on belt: Items enchanted with Mending can be repaired using Spout and Liquid Experience.*
  - *Deployer with Sweeping Edge: Deployer now benefits from sword with Sweeping Edge Enchantment.*
-
-### [Create](https://modrinth.com/mod/create-fabric)
-Create mod base. Adds far too many features to cover here.
-
-Mostly based in the automation of different things, but includes so many machines for automating and new materials that it's essentially an expansion pack for minecraft as a whole. Create mod has it's own in-game documentation - "Ponder." 
-
-Create mod and **Just Enough Items** (the item list menu thing to the right of your inventory) go hand in hand.
 
 ### [Create Copycats+](https://modrinth.com/mod/copycats)
 Create plugin that adds more copycat blocks that can be textured with any block when right clicked. Includes vertical slabs (sin)
