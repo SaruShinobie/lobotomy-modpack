@@ -5,7 +5,7 @@
 This repository contains all the mods running on lobotomy land, their associated links, and their descriptions - it shouldn't update often.
 
 
-## Major Content 
+# Major Content 
 
 ### [Create](https://modrinth.com/mod/create-fabric)
 Create mod base. Adds far too many features to cover here.
@@ -94,7 +94,7 @@ Adds a variant of Wandering Trader that will sell you items that you've previous
 Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once. When put on an axe, it allows you to cut down entire trees at once.
 
 
-## Minor Content/QOL (Quality of Life)
+# Minor Content/QOL (Quality of Life)
 
 ### [Crops Love Rain](https://modrinth.com/mod/crops-love-rain)
 
@@ -184,7 +184,7 @@ Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once
 
 
 
-## Performance/Functionality
+# Performance/Functionality
 
 ### [Entity Culling](https://modrinth.com/mod/entityculling)
 
@@ -257,7 +257,7 @@ Minor compatiblity fix for *[Create Deco](#create-deco)* involving item tags.
 
 ### [Immediately fast](https://modrinth.com/mod/immediatelyfast)
 
-## Libraries and API's
+# Libraries and API's
 
 ### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 
