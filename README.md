@@ -58,58 +58,87 @@
 # Major Content 
 
 ### [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)
-
+Adds diesel generators, fuel, oil drilling and refining, distillation, etc.
 
 ### [Create Deco Additions](https://modrinth.com/datapack/create-deco-additions)
-
+Minor compatiblity fix for Create Deco involving item tags.
 
 ### [Create Deco](https://modrinth.com/mod/create-deco)
-
+Adds a massive amount of decorative blocks to Create mod, including bricks, decals, shipping containers, and a huge assortment of railing, scaffolding, ladders, windows, and etc. using Create mod materials.
 
 ### [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
+Create mod plugin that adds electricity related items; motors, generators, batteries, collectors, wires, all driven by normal rotatio force from create mod contraptions.
+Electricity is generally very difficult to generate, as alternators (electricity generators) have a high torque requirement and electric motors require a LOT of electricity.
 
+Also adds chocolate cake. c:
 
 ### [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)
+Adds chunk loaders that keeps chunks on the server loaded and contraptions in the radius running, even when away.
+Major Features:
+ - 2 tiers of chunk loaders:
+     - Brass chunk loader: configurable loading range (1x1 to 5x5)
+     - Andesite chunk loader: loads a single chunk
 
+ - Chunk loaders work on the ground, on trains and on contraptions.
+     - Toggleable in-game via contraption controls
+
+ - Attaches to Train Stations for lag-friendly chunk loading
+ - Reliable chunk loading and unloading
 
 ### [Create High Pressure](https://modrinth.com/mod/create-high-pressure)
+Create mod plugin that adds the ability to automate diamond production from coal or charcoal.
+"Create High Pressure aims to give you a seamless and bloatless way of producing diamonds reliably, with no mining needed. It is quite costly though!"
+**"It is meant to be survival friendly and not overpowered in any way."**
 
+Adds graphite, created from compacting blasted coal/charcoal, which when compacted in a superheated basin has a low chance of becoming a diamond.
+Also adds the ability to manufacture netherrack by mixing it with gravel and lava in a basin.
 
 ### [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric)
+Create mod plugin that focuses on partially automating XP farming and enchantment/disenchantment. Below are some major features:
 
+ - Liquid Experience: High-density experience that is easy to store and transport.
+ - Disenchanter: Disenchant items and collect experience as liquid.
+ - Blaze Enchanter: Automated enchanting.
+ - Printer: Enables copying your written books, enchanted books, name tags and train schedules.
+ - Deployer & Crushing Wheel Tweak: Mobs killed by the Deployer & Crushing Wheel drop experience nuggets.
+ - Hyper-enchant mechanism allows you to get enchantment whose level is higher than level cap.
+ - Mending on belt: Items enchanted with Mending can be repaired using Spout and Liquid Experience.
+ - Deployer with Sweeping Edge: Deployer now benefits from sword with Sweeping Edge Enchantment.
 
 ### [Create](https://modrinth.com/mod/create-fabric)
-
+Create mod base. Adds far too many features to cover here. Mostly based in the automation of different things, but includes so many machines for automating and new materials that it's essentially an expansion pack for minecraft as a whole. Create mod has it's own in-game documentation - "Ponder." 
+Create mod and Just Enough Items (the item list menu thing to the right of your inventory) go hand in hand.
 
 ### [Create Copycats+](https://modrinth.com/mod/copycats)
-
+Create plugin that adds more copycat blocks that can be textured with any block when right clicked. Includes vertical slabs (sin)
 
 ### [Create Bells and Whistles](https://modrinth.com/mod/bellsandwhistles)
-
-
-### [Another Furniture Mod](https://modrinth.com/mod/another-furniture)
-
-
-### [Naturalist Mobs](https://modrinth.com/mod/naturalist)
-
-
-### [Friends and Foes](https://modrinth.com/mod/friends-and-foes)
-
-
-### [Friends and Foes Addon - Flowery Mooshrooms](https://modrinth.com/mod/friends-and-foes-flowery-mooblooms-fabric)
-
+Create plugin that adds 36 new blocks, mostly decorative and train oriented.
 
 ### [Create Interiors](https://modrinth.com/mod/interiors)
+Adds an assortment of chairs and stools, almost exclusively to be used in trains.
 
+### [Another Furniture Mod](https://modrinth.com/mod/another-furniture)
+Adds a large collection of furniture blocks, designed to look consistent and vanilla-like.
+
+### [Naturalist Mobs](https://modrinth.com/mod/naturalist)
+Adds a moderately sized collection of new animals, mostly peaceful. Giraffes, Deer, Bears, Lions, a small collection of birds, and some more.
+
+### [Friends and Foes](https://modrinth.com/mod/friends-and-foes)
+Adds previously outvoted mobs from past mob votes held by Mojang.
+There are more than a few unique features added by this one, so I recommend just [checking the wiki.](https://github.com/Faboslav/friends-and-foes/wiki)
+
+### [Friends and Foes Addon - Flowery Mooshrooms](https://modrinth.com/mod/friends-and-foes-flowery-mooblooms-fabric)
+Addon to Friends and Foes that adds "Mooblooms" that wander flower covered plains.
 
 ### [Immersive Paintings](https://modrinth.com/mod/immersive-paintings)
-
+Adds custom user-uploaded paintings as well as a gallery of paintings to select from.
 
 ### [Wandering Collector](https://modrinth.com/mod/wandering-collector)
-
+Adds a variant of Wandering Trader that will sell you items that you've previously lost at a premium (despawned, burned after dying, etc.)
 
 ### [Vein Miner Enchantment ](https://modrinth.com/mod/vein-mining)
-
+Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once. When put on an axe, it allows you to cut down entire trees at once.
 
 
 # Minor Content/QOL (Quality of Life)
