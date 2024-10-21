@@ -1,4 +1,4 @@
-# `lobotomy-mod-pack`
+# Lobotomy Land Modpack and Documentation
 ![logo](logo-small.png)
 
 # Description
