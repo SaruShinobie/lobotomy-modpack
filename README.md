@@ -1,11 +1,16 @@
 # Lobotomy Land Mods, Installer, and Documentation
+## **ALL MOD TITLES HAVE EMBEDDED LINKS TO THEIR PAGES. CLICK ON A MOD TITLE TO LEARN MORE.**
 ![logo](logo-small.png)
 
 # Description
 This repository contains all the mods running on lobotomy land, their associated links, and their descriptions - it shouldn't update often.
 
+<<<<<<< HEAD
 
 # Major Content 
+=======
+## Major Content 
+>>>>>>> 3959f799a31f6a068dd47e0367d9745e2849cffe
 
 ### [Create](https://modrinth.com/mod/create-fabric)
 Create mod base. Adds far too many features to cover here.
