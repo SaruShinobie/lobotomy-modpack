@@ -28,7 +28,7 @@ echo Updating Mods...
 
     @timeout /t 2 >nul 2>&1
     
-    tar -xvzf %mcroot%/mods.tar.gz -C %modfolder%
+    tar -xvzf %mcroot%/mods.tar.gz -C %mcroot%
 
 echo Sigma!
 echo All done.
