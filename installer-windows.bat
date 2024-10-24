@@ -23,4 +23,5 @@ echo Updating Mods...
 
 echo Sigma!
 echo All done.
+    @timeout /t 10 >nul 2>&1
 exit
