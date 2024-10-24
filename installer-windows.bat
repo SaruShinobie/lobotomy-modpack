@@ -19,16 +19,16 @@ echo Updating Mods...
 
 
     Compressing and backing up existing mods...
-    tar -czf mods-backup-%cusdate%.tar.gz mods/
+    tar -czf %root%/mods-backup-%cusdate%.tar.gz %modfolder%
     @timeout /t 2 >nul 2>&1
 
-    Deleting existing mods...
+    echo Deleting existing mods...
     @RD /S /Q mods
     @MD mods
 
     @timeout /t 2 >nul 2>&1
     
-    tar -xvzf mods.tar.gz -C %modfolder%
+    tar -xvzf %root%/mods.tar.gz -C %modfolder%
 
 echo Sigma!
 echo All done.
