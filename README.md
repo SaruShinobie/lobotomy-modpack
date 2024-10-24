@@ -97,70 +97,70 @@ Adds a pickaxe enchantment that allows you to mine an entire vein of ore at once
 # Minor Content/QOL (Quality of Life)
 
 ### [Crops Love Rain](https://modrinth.com/mod/crops-love-rain)
-
+Crops grow faster when it rains.
 
 ### [CraftPresence (Discord Rich Presence)](https://modrinth.com/mod/craftpresence)
-
+More in-depth discord integration for java minecraft that shows the dimension you're in, your play time, etc.
 
 ### [CList (Coordinate List)](https://modrinth.com/mod/clist)
-
+Coordinate list adds user-configurable waypoints that you can see from far away, useful for things like waypoints back to your house or to points of interest like structure or other bases.
 
 ### [Companion (Pet AI Improvements)](https://modrinth.com/mod/companion)
-
+Improvements to pet AI to make it harder to lose your pets to stupid shit.
 
 ### [Clickthrough (Signs to Chests)](https://modrinth.com/mod/clickthrough)
-
+Allows you to open chests through signs by right clicking on the sign.
 
 ### [Chef's Delight (Adds Chef Villagers)](https://modrinth.com/mod/chefs-delight)
-
+Adds structures to villages with farmer's delight modded blocks and etc.
 
 ### [Campfires Cook Mobs](https://modrinth.com/mod/camp-fires-cook-mobs)
-
+When mobs die on campfires, their drops are cooked. Eg. cooked porkchop from pigs.
 
 ### [Better than Mending](https://modrinth.com/mod/better-than-mending)
-
+Allows you to repair tools enchanted with mending by right cicking with the tool in your hand while sneaking. Basically lets you repair tools with mending by exhanging XP you already have.
 
 ### [Appleskin](https://modrinth.com/mod/appleskin)
-
+Simple UI improvement that shows you your saturation level.
 
 ### [Pigs have Litters](https://modrinth.com/mod/pigs-have-litters)
-
+Pigs give birth to more piglets at once, but less often.
 
 ### [Pettable (Pet your Pets)](https://modrinth.com/mod/pettable)
-
+Lets you pet your pets.
 
 ### [Leaves Be Gone](https://modrinth.com/mod/leaves-be-gone)
-
+Leaves rapidly disappear after chopping down a tree.
 
 ### [Logical Zoom](https://modrinth.com/mod/logical-zoom)
-
+Simple zoom keybinding for fabric. Functionally the same as optifine zoom.
 
 ### [JEED](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)
-
+Just Enough Items plugin that shows you different status effects.
 
 ### [JEP](https://modrinth.com/mod/just-enough-professions-jep)
-
+Just Enough Items plugin that adds a context menu to show you items sold by different villager professions/items you can sell to them.
 
 ### [JEB](https://modrinth.com/mod/justenoughbreeding)
-
+Just Enough Items plugin that shows you what items different mobs need to breed.
 
 ### [JER](https://modrinth.com/mod/just-enough-resources-jer)
-
+Just Enough Items plugin that shows you different intangible resources, like water, lava, oil, etc.
 
 ### [JEI](https://modrinth.com/mod/jei)
-
+Comprehensive item index to the right of your inventory. Shows everything there is to know about any given item in minecraft - nearly **ALL** modded items are supported by JEI. Left click items to see how to obtain/craft the item in question, right click to see what the item can be used for. (Crafting recipes, Breeding, Cooking, Create mod recipes, etc.)
 
 ### [New Item Highlighter](https://modrinth.com/mod/item-highlighter)
-
+Adds a small star icon next to newly obtained items, disappears when the item is hovered over/selected.
 
 ### [Inventory Sorting](https://modrinth.com/mod/inventory-sorting)
-
+Small button in your inventory to sort your quickly. Does not sort the hotbar.
 
 ### [No Hostiles Around Campfire](https://modrinth.com/mod/no-hostiles-around-campfire)
-
+Campfires keep mobs away.
 
 ### [Hostile Mobs Improve Over Time](https://modrinth.com/datapack/hostile-mobs-improve-over-time)
-
+As you play th
 
 ### [Healing Campfire](https://modrinth.com/mod/healing-campfire)
 
