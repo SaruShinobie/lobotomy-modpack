@@ -4,14 +4,12 @@ cd /D "%~dp0"
 
 set mcroot="%USERPROFILE%\AppData\Roaming\.minecraft"
 set modfolder="%USERPROFILE%\AppData\Roaming\.minecraft\mods"
-set cusdate=M%DATE:~4,2%D%DATE:~7,2%Y%DATE:~10,4%
 
 echo "################"
 echo SCRIPT STARTING
 echo "################"
 echo.
     @timeout /t 1 >nul 2>&1
-
 cd /d %mcroot%
 
 echo Downloading latest fabric installer...
@@ -24,7 +22,7 @@ echo Updating Mods...
 
 
     echo Compressing and backing up existing mods...
-    tar -czf %mcroot%/mods-backup-%cusdate%.tar.gz %modfolder%
+    tar -czf mods-backup.tar.gz /mods
     @timeout /t 2 >nul 2>&1
 
     echo Deleting existing mods...
@@ -33,7 +31,7 @@ echo Updating Mods...
 
     @timeout /t 2 >nul 2>&1
     
-    tar -xvzf %mcroot%/mods.tar.gz -C %mcroot%
+    tar -xvzf mods.tar.gz
 
 echo Sigma!
 echo All done.
