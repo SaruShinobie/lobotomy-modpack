@@ -9,7 +9,7 @@ echo "################"
 #zip;
 #printf "${process0} \e[32m[DONE!]\e[0m"
 
-moddir="/home/$USER/.minecraft"
+moddir="~/.minecraft"
 cd ${moddir}
 
 
