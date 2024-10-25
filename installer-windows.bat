@@ -4,13 +4,19 @@ cd /D "%~dp0"
 
 set mcroot="%USERPROFILE%\AppData\Roaming\.minecraft"
 set modfolder="%USERPROFILE%\AppData\Roaming\.minecraft\mods"
-set cusdate=M%DATE:~4,2%D%DATE:~7,2%Y%DATE:~10,4%
+set cusdate=%DATE:~4,2%-%DATE:~7,2%-%DATE:~10,4%
 
 echo "################"
 echo SCRIPT STARTING
 echo "################"
 echo.
     @timeout /t 1 >nul 2>&1
+
+
+echo Downloading latest fabric installer...
+    curl -k "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe" -o fabricinstaller.exe
+    start /WAIT "%mcroot%" fabricinstaller.exe
+
 
 echo Updating Mods...
     cd /d %mcroot%
@@ -34,3 +40,4 @@ echo Sigma!
 echo All done.
     @timeout /t 10 >nul 2>&1
 exit
+
