@@ -14,6 +14,9 @@ cd /d %mcroot%
 
 echo Downloading latest fabric installer...
     curl -k "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe" -o fabricinstaller.exe
+    ECHO ###### !!!!! ######
+    echo MAKE SURE YOU PICK *THE SERVER'S* CURRENT MINECRAFT VERSION, 1.20.1
+    ECHO ###### !!!!! ######
     start /WAIT "%mcroot%" fabricinstaller.exe
 
 echo Updating Mods...
