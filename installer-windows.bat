@@ -1,7 +1,5 @@
 @echo off
 
-cd /D "%~dp0"
-
 set mcroot="%USERPROFILE%\AppData\Roaming\.minecraft"
 set modfolder="%USERPROFILE%\AppData\Roaming\.minecraft\mods"
 set cusdate=%DATE:~4,2%-%DATE:~7,2%-%DATE:~10,4%
@@ -14,6 +12,7 @@ echo.
 
 
 echo Downloading latest fabric installer...
+    cd %mcroot%
     curl -k "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe" -o fabricinstaller.exe
     ECHO ###### !!!!! ######
     echo MAKE SURE YOU PICK THE CURRENT SERVER MINECRAFT VERSION, 1.20.1
