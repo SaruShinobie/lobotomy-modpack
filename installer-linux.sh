@@ -10,7 +10,7 @@ echo "################"
 # zip;
 # printf "${process0} \e[32m[DONE!]\e[0m"
 
-moddir="~/.minecraft"
+moddir="/home/$USER/.minecraft"
 cd ${moddir}
 
 process0="Backing up existing mod folder..."
