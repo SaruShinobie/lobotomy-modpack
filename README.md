@@ -160,102 +160,116 @@ Small button in your inventory to sort your quickly. Does not sort the hotbar.
 Campfires keep mobs away.
 
 ### [Hostile Mobs Improve Over Time](https://modrinth.com/datapack/hostile-mobs-improve-over-time)
-As you play th
+As you play and in game time passes, **hostile** mobs progressively "level up" and deal more damage
 
 ### [Healing Campfire](https://modrinth.com/mod/healing-campfire)
-
+When in the radius of a campfire, players be inflicted with regeneration.
 
 ### [Replanting Crops](https://modrinth.com/mod/replanting-crops)
-
+If crops are destroyed with a hoe and you have matching seeds in your inventory they will be replanted automatically.
 
 ### [Show Me What You Got](https://modrinth.com/mod/show-me-what-you-got)
-
+Hovering over an item in your inventory and pressing **"CTRL+T"** will send a preview of that item in the in-game chat.
 
 ### [Snowballs Freeze Mobs](https://modrinth.com/mod/snowballs-freeze-mobs)
-
+Throwing snowballs at mobs will freeze them momentarily.
 
 ### [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
-
+Tooltip that shows the items inside of a shulker box, if applicable.
 
 ### [Villager Names](https://modrinth.com/mod/villager-names-serilum)
-
+Villagers are spawned with randomly generated names.
 
 ### [Where Is It](https://modrinth.com/mod/where-is-it)
-
+Hovering over an item in your inventory and pressing **"Y"** will show you nearby containers with that item. Fairly short 5 block range.
 
 
 # Performance/Functionality
 
 ### [Entity Culling](https://modrinth.com/mod/entityculling)
-
+Entities are not rendered when behind blocks/not in view.
 
 ### [Chunky Extension](https://modrinth.com/mod/chunky-extension)
-
+Pauses chunk generation when players join the server to save resources and increase performance.
 
 ### [Chunky](https://modrinth.com/plugin/chunky)
-
+Plugin to pre-generate chunks to improve long-term performance.
 
 ### [Dynmap](https://modrinth.com/plugin/dynmap)
-
+Web minimap for the world.
 
 ### [C2me (Concurrent Chunk Management Engine)](https://modrinth.com/mod/c2me-fabric)
-
+Chunk loading, generating, and storing optimizations.
 
 ### [Anti X-Ray](https://modrinth.com/mod/anti-xray)
-
+Block textures are changed randomly if they arent exposed to air or viewable by a player.
 
 ### [Packet Fixer](https://modrinth.com/mod/packet-fixer)
-
+Network optimizations.
 
 ### [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
-
+Audio engine for minecraft with spacial sound/muffling/echoes, etc.
 
 ### [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice)
-
+In game proximity chat, similar to lethal company.
 
 ### [Mod Menu](https://modrinth.com/mod/modmenu)
-
+Simple menu showing all the installed mods and their descriptions.
 
 ### [Mobtimizations](https://modrinth.com/mod/mobtimizations)
-
+Various optimizations to mob pathfinding, aggro, etc.
 
 ### [MiniMOTD](https://modrinth.com/plugin/minimotd)
-
+Improved server message of the day. (Title.)
 
 ### [Lazy DFU](https://modrinth.com/mod/lazydfu)
+Performance fix that stops unnecessary code from loading during startup.
 
+"DataFixerUpper (often abbreviated to DFU) is the Minecraft component responsible for handling world upgrades from older versions of Minecraft to newer versions. DFU is initialized very early in the Minecraft startup process - in fact, it's initialized before the game window even appears. It is laughably overengineered and very slow, but it's what Mojang gives us to work with."
+
+"As part of the DFU initialization process, it caches rules required to convert from older versions to MInecraft through every version in between, up to the version of the game being launched. This process takes place in the background, but it is extremely slow, as it is both CPU and memory intensive. With Minecraft 1.16.5, I have measured this process take 9 seconds on a Ryzen 9 3900X desktop (a high-end desktop CPU released in 2019) and 57 seconds on a laptop with an i5-8250U (a mid-range laptop chip from 2017)."
+
+"All LazyDFU does is stop this process - it lets DFU initialize, but it will force it to not cache all these rules. As a result, the DFU rules are only compiled when a world needs to be converted. This means it is possible you may see lag spikes if LazyDFU forces the game to compile migration rules, but once complete there is no performance penalty."
 
 ### [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights)
-
+Dynamic lighting engine. Torches and other light sources held in your hand will light the immediate area, as if the block was placed down.
 
 ### [Item Model Gap Fix](https://modrinth.com/mod/item-model-fix)
-
+Fixes gaps in item models. Most noticeable in the models for tools.
 
 ### [Create Deco Additions](https://modrinth.com/datapack/create-deco-additions)
 Minor compatiblity fix for *[Create Deco](#create-deco)* involving item tags.
 
 ### [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
-
+Skin layers are extruded to give skins a 3d appearance.
 
 ### [Sodium](https://modrinth.com/mod/sodium/versions?g=1.20.1&l=fabric)
-
+Basically optifine.
 
 ### [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
-
+Sodium plugin that expands the default set of video options.
 
 ### [Sodium Extras](https://modrinth.com/mod/sodium-extra)
+Extra sodium QOL features. Quoted from their website:
+
+ -  Animations Settings (Control fire, water, lava, block animations and etc...)
+ -  Particles Settings (Control all types of particles, including ones from other mods)
+ -  Details Settings (Control sky, stars, sun/moon, weather, and much more)
+ -  Render Settings (Control fog, static entities, and other miscellaneous renderings)
+ -  Extra Settings (Display FPS, coordinates, toast notifications, clouds, and much more)
 
 
 ### [Spark Performance Profiler](https://modrinth.com/mod/spark)
-
+Extra statistics for debugging performance issues.
 
 ### [Iris Shaders](https://modrinth.com/mod/iris)
-
+Shader engine for sodium.
 
 ### [Indium](https://modrinth.com/mod/indium)
-
+Various rendering optimizations, should boost performance with shaders.
 
 ### [Immediately fast](https://modrinth.com/mod/immediatelyfast)
+Improves rendering performance when used in combination with a dedicated GPU. (Optimizes how data is packaged and sent from the processer to your graphics card.)
 
 # Libraries and API's
 
