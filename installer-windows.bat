@@ -1,4 +1,5 @@
 @echo off
+@echo off
 
 cd /D "%~dp0"
 
