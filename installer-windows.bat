@@ -36,7 +36,6 @@ echo Updating...
         @timeout /t 2 >nul 2>&1
     
     tar -xvzf %mcroot%/mods.tar.gz -C %modfolder%
-<<<<<<< HEAD
 
 :::      :+++++=
 :::      -++++++.
@@ -73,8 +72,6 @@ echo Updating...
 :::                                           ....
 
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A)
-=======
->>>>>>> 2245d8798bc0de4d39bdc21bcede5eeb654c4f51
 echo Sigma!
 echo All done. C:
 echo This window will close in ten seconds.
