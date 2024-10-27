@@ -18,7 +18,7 @@ cd ${moddir}
 
 process0="Backing up existing mod folder..."
 printf "${process0}"\\r;
-zip -r -q ./mods/.mod-folder-backup.zip mods && printf "${process0} \e[32m[DONE!]\e[0m"
+sudo zip -r -q ./mods/.mod-folder-backup.zip mods && printf "${process0} \e[32m[DONE!]\e[0m"
 #i didnt even know `zip` as a standalone command existed.
 #this needs to be a tar.gz archive.
 echo
@@ -42,8 +42,8 @@ sleep 1
 
 process3="Extracting package..."
 printf "${process3}"\\r;
-tar -xvzf mods.tar.gz;
-    # Hreplaced?
+sudo tar -xvzf mods.tar.gz;
+    # replaced?
 printf "${process3} \e[32m[DONE!]\e[0m"
 echo
 sleep 1
