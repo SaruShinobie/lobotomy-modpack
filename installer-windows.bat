@@ -36,14 +36,6 @@ echo Updating...
         @timeout /t 2 >nul 2>&1
     
     tar -xvzf %mcroot%/mods.tar.gz -C %modfolder%
-:::
-:::            へ   ♡   ╱|、
-:::      ૮  -   ՛ )      (`   -  7
-:::        /   ⁻  ៸|       |、⁻〵
-:::  乀 (ˍ, ل ل      じしˍ,)ノ
-:::
-
-for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A)
 echo Sigma!
 echo All done. C:
 echo .
