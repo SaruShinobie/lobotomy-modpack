@@ -1,5 +1,4 @@
 @echo off
-@echo off
 
 set mcroot="%USERPROFILE%\AppData\Roaming\.minecraft"
 set modfolder="%USERPROFILE%\AppData\Roaming\.minecraft\mods"
