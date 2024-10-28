@@ -27,8 +27,7 @@ elif platform.system() == "Darwin":
 os.chdir(homedir + '/.minecraft')
 mcfolder = Path.cwd()
 
-os.chdir(homedir + '/.minecraft/mods')
-modfolder = Path.cwd()
+modfolder = homedir + '/.minecraft/mods'
 
 os.chdir(mcfolder)
 
@@ -38,9 +37,10 @@ time.sleep(2)
 
 
 #begin mod backup and deletion
-#DOESN'T CURRENTLY BACK UP EXISTING MODS.
+#THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
 try:
     shutil.rmtree(modfolder)
+    print("Cleared previous mods.")
 except OSError as e:
     print("Error: %s - %s." % (e.filename, e.strerror))
 
@@ -67,4 +67,6 @@ tar_file_path = 'mods.tar.gz'
 extract_to = 'mods'
 extract_tar_archive(tar_file_path, extract_to)
 
-print("")
+print("All Done!")
+print("This script will exit and close in ten seconds. :)")
+time.sleep(10)
