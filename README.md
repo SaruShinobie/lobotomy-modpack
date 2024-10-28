@@ -273,54 +273,26 @@ Improves rendering performance when used in combination with a dedicated GPU. (O
 
 # Libraries and API's
 
+Libraries don't really have any clear additions to the game. They're generally just big dictionaries with different conde functions that other mods can look up and use - they only exist to make modders' lives easier, and that makes them pretty cool. :)
+
+tl;dr, **This isn't incomplete, API's and libraries don't need descriptions.**
+
 ### [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-
-
 ### [Fabric API](ttps://modrinth.com/mod/fabric-api)
-
-
 ### [Unilib](https://modrinth.com/mod/unilib)
-
-
 ### [CoroUtil](https://modrinth.com/mod/coroutil)
-
-
 ### [Collective](https://modrinth.com/mod/collective)
-
-
 ### [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api)
-
-
 ### [Botarium (Liquid and Energy Transfer API)](https://modrinth.com/mod/botarium)
-
-
 ### [Balm API](https://modrinth.com/mod/balm)
-
-
 ### [Architectury API](https://modrinth.com/mod/architectury-api)
-
-
 ### [Puzzles lib](https://modrinth.com/mod/puzzles-lib)
-
-
 ### [Midnight lib](https://modrinth.com/mod/midnightlib)
-
-
 ### [Iris and Geckolib Animation Compatibility](https://modrinth.com/mod/geckoanimfix)
-
-
 ### [Silk Kotlin Language API](https://modrinth.com/mod/silk)
-
-
 ### [Gecko lib](https://modrinth.com/mod/geckolib)
-
-
 ### [Yet Another Config Library](https://modrinth.com/mod/yacl)
-
-
 ### [Iceberg Library](https://modrinth.com/mod/iceberg)
-
-
 ### [Trinkets](https://modrinth.com/mod/trinkets)
 
 
