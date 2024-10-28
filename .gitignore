@@ -1,4 +1,7 @@
 *.log
 *.env
+*.spec
 test.py
 checklist.md
+/build
+/dist
