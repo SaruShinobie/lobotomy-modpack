@@ -15,36 +15,39 @@ homedir = os.path.expanduser("~")
 #we find the minecraft folder in this section.
 if platform.system() == "Linux":
     print("Operating system detected: Linux")
+    global mcfolder
+    global modfolder
+    os.chdir(homedir + '/.minecraft')
+    mcfolder = Path.cwd()
+    modfolder = homedir + '/.minecraft/mods'
+    os.chdir(mcfolder)
+    print("Changed current working directory to '" + str(mcfolder) + "'")
+    time.sleep(2)
 
 elif platform.system() == "Windows":
     print("Operating system detected: Windows")
-
-elif platform.system() == "Darwin":
-    print("Operating system detected: MacOS")
-    print("fuck you.")
-    #needs function
-
-os.chdir(homedir + '/.minecraft')
-mcfolder = Path.cwd()
-
-modfolder = homedir + '/.minecraft/mods'
+    os.chdir(homedir)
+    os.chdir("AppData")
+    os.chdir("Roaming")
+    os.chdir(".minecraft")
+    mcfolder = Path.cwd()
+    os.chdir("mods")
+    modfolder = Path.cwd
+    os.chdir(mcfolder) 
+    print("Changed current working directory to '" + str(mcfolder) + "'")
+    time.sleep(2)
 
 os.chdir(mcfolder)
-
-print("Changed current working directory to '" + str(mcfolder) + "'")
-time.sleep(2)
-
-
 
 #begin mod backup and deletion
 #THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
 try:
-    shutil.rmtree(modfolder)
+    shutil.rmtree(str("mods"))
     print("Cleared previous mods.")
 except OSError as e:
     print("Error: %s - %s." % (e.filename, e.strerror))
 
-os.mkdir(modfolder)
+os.mkdir(str("mods"))
 
 
 
@@ -67,6 +70,46 @@ tar_file_path = 'mods.tar.gz'
 extract_to = 'mods'
 extract_tar_archive(tar_file_path, extract_to)
 
-print("All Done!")
+
+print()
+print()
+print("      :+++++=")
+print("      -++++++.")
+print("      :++++++.               .")
+print("      .++++++.             -=. -:           .::")
+print("       =+++++.           :=.    =-       .--:. -")
+print("       =+++++.          .+       =:     -=.    :=")
+print("       =+++++.          +.     :.=*   .=:       =:")
+print("       =++++=          .+      +. -- :+         .=")
+print("      .+++++=          .=    ..=:    :.          =")
+print("      .++=++-          .=   .+-                  =")
+print("       ==++*=::..       *                        +")
+print("       =*#-+- .:---:.   :=-- .-=%.  --=#-  ..::.--")
+print("       :#=-*-     .::--:.*: .+ #@.  - *@@- .. -#:")
+print("        ++:*.           .:--==:--::   .%%-.. :=.")
+print("         =++.:...::::::..... :---+-:.  .:.: --")
+print("                          *=..:::..        .=.")
+print("                            :-.          .=:::")
+print("                         ..:=.            :-..-:---:")
+print("                        ==:-                 .=-:  :=-")
+print("                        .=                      =-   :--.    .--")
+print("                         --            :-:.      -=    .::::-:=.")
+print("                         :-              =-      :+          .+")
+print("                         ---            -:      .+           +.")
+print("                           :=          -=      .+           =:")
+print("                            +.         -:       =:        :=.")
+print("                             -.        .=:      --.....::-:")
+print("                            .=-     .=   :-:----- .::::.")
+print("                          .-:        .=     ..+:")
+print("                          -=......:.:-:+      :=")
+print("                           .::--::...  :=      -")
+print("                                        =:     =:")
+print("                                         --::.--")
+print("                                           ....")
+#someone's gonna think im a furry or a femboy or some shit because of this.
+print()
+
+print("sigma")
+print("all done!")
 print("This script will exit and close in ten seconds. :)")
 time.sleep(10)
