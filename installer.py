@@ -9,7 +9,6 @@ from pathlib import Path
 
 
 #define some functions ahead of time
-
 def delete_directory(directory):
     try:
         shutil.rmtree(str(directory))
@@ -73,7 +72,7 @@ global modfolder
 
 if platform.system() == "Linux":
     print("Operating system detected: Linux")
-    os.chdir(homedir + '/.minecraft')
+    os.chdir('/.minecraft')
     mcfolder = Path.cwd()
     modfolder = mcfolder + '/mods'
 
