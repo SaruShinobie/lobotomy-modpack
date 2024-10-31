@@ -1,4 +1,4 @@
-import urllib
+import wget
 import urllib.request
 import tarfile
 import os
@@ -39,7 +39,7 @@ elif platform.system() == "Windows":
 
 os.chdir(mcfolder)
 
-#begin mod backup and deletion
+#begin mod deletion
 #THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
 try:
     shutil.rmtree(str("mods"))
@@ -60,9 +60,9 @@ def extract_tar_archive(tar_file_path, extract_to):
 print("Starting install...")
 
 print("Fetching mods...")
-#this is the SIMPLEST implementation of curl i have ever seen i just NUTTED SO FUCKING HARD
-url = 'https://git.adolin.xyz/saru/lobotomy-mod-pack/raw/branch/main/mods.tar.gz'
-urllib.request.urlretrieve(url, 'mods.tar.gz')
+#  #this is the SIMPLEST implementation of curl i have ever seen i just NUTTED SO FUCKING HARD
+#take the last one back, this is fucking insane. wget the fucking goat. who knew windows package manager was so damn cool?
+wget.download('https://git.adolin.xyz/saru/lobotomy-mod-pack/raw/branch/main/mods.tar.gz')
 
 print("Extracting and writing to disk...")
 
