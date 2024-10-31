@@ -60,6 +60,27 @@ def ascii_art():
     print()
 #someone's gonna think im a furry or a femboy or some shit because of this.
 
+def win_check_folder_exists(folder):
+    dir = os.path.normpath(str(Path.cwd()) + "/" + str(folder))
+        # fuck you microsoft
+        # this is some high-tier BULLSHIT right here
+
+    #print(dir)
+
+    if not os.path.exists(dir):
+        print()
+        print("[WARN!]: Mod folder not found. (is Fabric installed?)")
+        print("[WARN!]: (note: the script will continue on from here and the mods directory will be made automatically, but")
+        print("[WARM!]: if you don't have fabric, the mods won't be loaded and you won't be able to join the server.)")
+        os.mkdir("mods")
+        print()
+        time.sleep(20)
+
+def check_for_old_mod_archive(filepath):
+    if os.path.exists(filepath):
+        print("Found previously downloaded archive, deleting... Done.")
+            #shut up
+        os.remove(filepath)
 
 
 #detect operating system and find home, minecraft, & mod folders
@@ -72,38 +93,41 @@ global modfolder
 
 if platform.system() == "Linux":
     print("Operating system detected: Linux")
-    os.chdir('/.minecraft')
+    os.chdir("/.minecraft")
     mcfolder = Path.cwd()
     modfolder = mcfolder + '/mods'
 
 elif platform.system() == "Windows":
     print("Operating system detected: Windows")
-    os.chdir("AppData/Roaming/.minecraft/mods")
+    os.chdir("AppData/Roaming/.minecraft")
     mcfolder = Path.cwd()
-    modfolder = mcfolder + '/mods'
 
+    win_check_folder_exists("mods")
+
+    modfolder = str(mcfolder) + '/mods'
 
 os.chdir(mcfolder) 
 print("Changed current working directory to '" + str(mcfolder) + "'")
 time.sleep(2)
+    # unclear if this timeout is necessary for UX
 
 
 
 #clear out preexisting mods
+check_for_old_mod_archive("mods.tar.gz")
 delete_directory("mods")
-print("Deleted mod folder contents.")
+    #custom function*
+print("Deleting mod folder contents... Done.")
+    #shut up again
 os.mkdir(str("mods"))
 
 
 
 # download mod archive from https://git.adolin.xyz/saru and extract
-print("Starting install...")
 print("Fetching mods...")
 wget.download('https://git.adolin.xyz/saru/lobotomy-mod-pack/raw/branch/main/mods.tar.gz')
     #  #this is the SIMPLEST implementation of curl i have ever seen i just NUTTED SO FUCKING HARD
     # take the last one back, this is fucking insane. `wget` the fucking goat. who knew windows package manager was so damn cool?
-
-print("Extracting and writing to disk...")
 
 extract_tar_archive('mods.tar.gz', 'mods')
     #              ('tarfile', 'directory to extract to')
@@ -113,5 +137,5 @@ ascii_art()
 
 print("sigma!")
 print("all done!")
-print("This script will exit and close in ten seconds. :)")
+print("This windows will exit and close in ten seconds. :)")
 time.sleep(10)
