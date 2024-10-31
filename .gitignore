@@ -5,3 +5,4 @@
 checklist.md
 /build
 /dist
+/.*
