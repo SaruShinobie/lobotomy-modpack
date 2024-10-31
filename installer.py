@@ -18,22 +18,18 @@ if platform.system() == "Linux":
     print("Operating system detected: Linux")
     os.chdir(homedir + '/.minecraft')
     mcfolder = Path.cwd()
-    modfolder = homedir + '/.minecraft/mods'
-    os.chdir(mcfolder)
-    print("Changed current working directory to '" + str(mcfolder) + "'")
-    time.sleep(2)
+    modfolder = mcfolder + '/mods'
 
 elif platform.system() == "Windows":
     print("Operating system detected: Windows")
     os.chdir("AppData/Roaming/.minecraft/mods")
     mcfolder = Path.cwd()
-    os.chdir("mods")
-    modfolder = Path.cwd
-    os.chdir(mcfolder) 
-    print("Changed current working directory to '" + str(mcfolder) + "'")
-    time.sleep(2)
+    modfolder = mcfolder + '/mods'
 
-os.chdir(mcfolder)
+
+os.chdir(mcfolder) 
+print("Changed current working directory to '" + str(mcfolder) + "'")
+time.sleep(2)
 
 # delete previous mods
 # WARN: THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
