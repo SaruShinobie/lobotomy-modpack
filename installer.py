@@ -1,22 +1,21 @@
 import wget
-import urllib.request
 import tarfile
 import os
 import platform
 import time
 import shutil
-import sys
 from pathlib import Path
 
-#detect operating system and find home folder
+#detect operating system and find home, minecraft, & mod folders
 homedir = os.path.expanduser("~")
+os.chdir(homedir)
 
-#operating system specific operations.
-#we find the minecraft folder in this section.
+# `global` sets these variables to exist outside of the scope of these specific `if` statements.
+global mcfolder
+global modfolder
+
 if platform.system() == "Linux":
     print("Operating system detected: Linux")
-    global mcfolder
-    global modfolder
     os.chdir(homedir + '/.minecraft')
     mcfolder = Path.cwd()
     modfolder = homedir + '/.minecraft/mods'
@@ -26,10 +25,7 @@ if platform.system() == "Linux":
 
 elif platform.system() == "Windows":
     print("Operating system detected: Windows")
-    os.chdir(homedir)
-    os.chdir("AppData")
-    os.chdir("Roaming")
-    os.chdir(".minecraft")
+    os.chdir("AppData/Roaming/.minecraft/mods")
     mcfolder = Path.cwd()
     os.chdir("mods")
     modfolder = Path.cwd
@@ -39,19 +35,21 @@ elif platform.system() == "Windows":
 
 os.chdir(mcfolder)
 
-#begin mod deletion
-#THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
-try:
-    shutil.rmtree(str("mods"))
-    print("Cleared previous mods.")
-except OSError as e:
-    print("Error: %s - %s." % (e.filename, e.strerror))
+# delete previous mods
+# WARN: THIS DOESN'T CURRENTLY BACK UP EXISTING MODS.
+def del_dir():
+    try:
+        shutil.rmtree(str("mods"))
+        print("Cleared previous mods.")
+    except OSError as e:
+        print("Error: %s - %s." % (e.filename, e.strerror))
+del_dir()
 
 os.mkdir(str("mods"))
 
 
 
-#begin download and extract
+# download mod archive from https://git.adolin.xyz/saru and extract
 #this snippet below defines a tar extract FUNCTION
 def extract_tar_archive(tar_file_path, extract_to):
     with tarfile.open(tar_file_path, 'r') as tar:
@@ -61,7 +59,7 @@ print("Starting install...")
 
 print("Fetching mods...")
 #  #this is the SIMPLEST implementation of curl i have ever seen i just NUTTED SO FUCKING HARD
-#take the last one back, this is fucking insane. wget the fucking goat. who knew windows package manager was so damn cool?
+# take the last one back, this is fucking insane. wget the fucking goat. who knew windows package manager was so damn cool?
 wget.download('https://git.adolin.xyz/saru/lobotomy-mod-pack/raw/branch/main/mods.tar.gz')
 
 print("Extracting and writing to disk...")
@@ -108,8 +106,8 @@ def ascii():
     print("                                           ....")
     #someone's gonna think im a furry or a femboy or some shit because of this.
     print()
-
 ascii()
+
 print("sigma")
 print("all done!")
 print("This script will exit and close in ten seconds. :)")
