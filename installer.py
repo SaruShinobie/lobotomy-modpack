@@ -3,6 +3,8 @@
 
 # (wget is a dependency for this python script that doesnt come with python by default)
 
+
+
 #import dependencies
 import wget
 import tarfile
@@ -90,6 +92,13 @@ def check_for_old_mod_archive(filepath):
         os.remove(filepath)
 #deletes old downloaded mod archives
 
+def compress_tar(folder_path, output_file):
+    with tarfile.open(output_file, "w:gz") as tar:
+        tar.add(folder_path, arcname=os.path.basename(folder_path))
+#thank you google gemini you are a literal lifesaver 
+
+
+
 #detect operating system and find home, minecraft, & mod folders
 homedir = os.path.expanduser("~")
 os.chdir(homedir)
@@ -103,18 +112,29 @@ if platform.system() == "Linux":
     os.chdir("/.minecraft")
     mcfolder = Path.cwd()
     modfolder = mcfolder + '/mods'
+    print("Changed current working directory to '" + str(mcfolder) + "'")
+    
+    print("Backing up mod folder...")
+    print()
+    print("Don't close the window! This'll take a moment...")
+    compress_tar(mcfolder, "mod-backup.tar.gz")
 
 elif platform.system() == "Windows":
     print("Operating system detected: Windows")
     os.chdir("AppData/Roaming/.minecraft")
     mcfolder = Path.cwd()
+    print("Changed current working directory to '" + str(mcfolder) + "'")
 
     win_check_folder_exists("mods")
 
     modfolder = str(mcfolder) + '/mods'
 
+    print("Backing up mod folder...")
+    print()
+    print("Don't close the window! This'll take a moment...")
+    compress_tar(mcfolder, "mod-backup.tar.gz")
+
 os.chdir(mcfolder) 
-print("Changed current working directory to '" + str(mcfolder) + "'")
 time.sleep(2)
     # unclear if this timeout is necessary for UX
 
