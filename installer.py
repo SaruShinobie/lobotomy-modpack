@@ -1,3 +1,9 @@
+# compiling this is easy, just run `pip install wget` and `pip install pyinstaller` and then...
+# compile with `python -m PyInstaller --onefile installer.py --icon image.ico`
+
+# (wget is a dependency for this python script that doesnt come with python by default)
+
+#import dependencies
 import wget
 import tarfile
 import os
@@ -5,8 +11,6 @@ import platform
 import time
 import shutil
 from pathlib import Path
-
-
 
 #define some functions ahead of time
 def delete_directory(directory):
@@ -70,18 +74,21 @@ def win_check_folder_exists(folder):
     if not os.path.exists(dir):
         print()
         print("[WARN!]: Mod folder not found. (is Fabric installed?)")
-        print("[WARN!]: (note: the script will continue on from here and the mods directory will be made automatically, but")
+        print("[WARN!]: (note: the script WILL KEEP GOING ANYWAYS and the mods directory will be MADE AUTOMATICALLY, but")
         print("[WARM!]: if you don't have fabric, the mods won't be loaded and you won't be able to join the server.)")
+        print()
+        print("[WARN!] THIS IS NOT A FATAL ERROR! DON'T CLOSE THE WINDOW!")
         os.mkdir("mods")
         print()
         time.sleep(20)
+#checks for mod folder existence and outputs [WARN!]
 
 def check_for_old_mod_archive(filepath):
     if os.path.exists(filepath):
         print("Found previously downloaded archive, deleting... Done.")
             #shut up
         os.remove(filepath)
-
+#deletes old downloaded mod archives
 
 #detect operating system and find home, minecraft, & mod folders
 homedir = os.path.expanduser("~")
