@@ -2,6 +2,7 @@
 *.env
 *.spec
 *.test.py
+*.code-workspace
 checklist.md
 /build
 /dist
