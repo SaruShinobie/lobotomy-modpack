@@ -77,7 +77,7 @@ def win_check_folder_exists(folder):
         print()
         print("[WARN!]: Mod folder not found. (is Fabric installed?)")
         print("[WARN!]: (note: the script will go on as usual without breaking anything, but if")
-        print("[WARN!]: you don't have fabric installed, your mods won't load when you start the game.")
+        print("[WARN!]: you don't have fabric installed, your mods won't load when you start the game.)")
         os.mkdir("mods")
         print()
         time.sleep(20)
