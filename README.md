@@ -3,13 +3,13 @@
 ![logo](logo-small.png)
 
 # Description
-This repository contains all the mods running on lobotomy land, their associated links, and their descriptions - it shouldn't update often.
+This repository contains all the mods running on my personal Minecraft server, their associated links, and their descriptions - it shouldn't update often.
  
 ## License
 
 Copyright (c) 2024-2025 Obie Hinojosa
 
-Licensed under GNU Affero General Public License as stated in the [LICENSE](LICENSE):
+Licensed under the GNU Affero General Public License as stated in the [LICENSE](LICENSE) file:
 
 ```
 Copyright (c) 2024-2025 Obie Hinojosa
