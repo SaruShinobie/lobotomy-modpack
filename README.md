@@ -1,6 +1,5 @@
 # Lobotomy Land Mods, Installer, and Documentation
 ## **ALL MOD TITLES HAVE EMBEDDED LINKS TO THEIR PAGES. CLICK ON A MOD TITLE TO LEARN MORE.**
-![logo](logo-small.png)
 
 # Description
 This repository contains all the mods running on my personal Minecraft server, their associated links, and their descriptions - it shouldn't update often.
